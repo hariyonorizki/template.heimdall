@@ -1,4 +1,5 @@
 FROM lscr.io/linuxserver/heimdall:latest
 
 
-COPY icons /config/www/SupportedApps
+COPY icons app/www/public/storage/icons
+
